@@ -1,0 +1,63 @@
+body {
+    /*background-image: url("/img/Codeup-logo.png");*/
+}
+.active {
+    background-color: red;
+}
+
+.title {
+    text-align: center;
+    font-size: 100px;
+    margin: auto;
+    color: rainbow;
+}
+.info {
+
+}
+.gameboard {
+    width: 600px;
+    height: 600px;
+    border-width: 2px;
+    margin: auto;
+    position: relative;
+}
+.tile {
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: 1px solid black;
+    margin: auto;
+    position: static;
+    background-image: 100%;
+}
+.innertile {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, red , green); 
+    margin: auto;
+    background-image: url("/img/Codeup-logo.png");
+    background-position: center;
+    background-size: 200px 200px;
+}
+.start {
+    width: 60px;
+    height: 20px;
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+.reset {
+    width: 60px;
+    height: 20px;
+    border: 1px solid black;
+    position: relative;
+    margin: auto;
+}
+.timer {
+    width: 60px;
+    height: 20px;
+    border: 1px solid black;
+    position: relative;
+    margin: auto;
+}
